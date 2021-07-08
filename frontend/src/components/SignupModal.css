@@ -1,0 +1,73 @@
+.message {
+    display: flex;
+}
+
+.tick-icon{
+    color: green;
+}
+
+.wrap {
+    position: fixed;
+    width: 43%;
+    left: 27%;
+}
+
+.form {
+    justify-content: center;
+    text-align: center;
+}
+.welcome {
+    display:flex;
+    flex-direction: row;
+}
+
+.welcome p {
+    margin-top: 2px;
+    padding-left: 10px;
+    font-family: Geomanist;
+    font-style: bolder;
+    font-size: 25px;
+    font-weight: 600;
+    color:#383E41;
+}
+
+.hand-icon {
+    color:#F8D064;
+}
+
+.form input {
+    width:90%;
+    height:7vh;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border:solid 2px #C3C3C3;
+    font-size: large;
+}
+
+.form button {
+    width:95%;
+    height:7vh;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #4C51EB;
+    color: #ffff;
+    font-family: Geomanist;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.form hr{
+    width:50%;
+    border-top: solid 1px #C3C3C3;
+}
+.or{
+    width:50px;
+}
+.form .or {
+    margin-left:240px;
+    margin-top:-25px;
+    background-color: #ffff;
+}
+
+ 

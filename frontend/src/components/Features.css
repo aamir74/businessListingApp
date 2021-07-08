@@ -1,0 +1,65 @@
+.features {
+    display: flex;
+    flex-direction: row;
+    margin-top: -23px;
+    width:100%;
+    height:50vh;
+    background-color: #ffff;
+    margin-bottom: 50px;
+
+}
+
+.feature-head {
+    width:30%;
+}
+
+.circle {
+    position:absolute;
+    width:25%;
+    height:40%;
+    background-color: red;
+    margin-top:50px;
+    margin-left:-8%;
+    border-radius:50%;
+    opacity:0.2
+}
+
+.feature-head p {
+    position: relative;
+    margin-left: 20%;
+    margin-top: 18%;
+    font-family: Geomanist;
+    font-weight: 750;
+    font-size: 28px;
+}
+
+.feature-content {
+    width: 70%;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:5%;
+}
+
+.feature-card div {
+    margin:10px;
+    margin-left: 10%;
+    width: 30%;
+}
+
+.card-head {
+    margin-top: 10px;
+    font-family: Geomanist;
+    font-weight: 750;
+    font-size: 25px;
+}
+
+.card-details {
+    margin-top: -14px;
+    font-family: Geomanist;
+    font-weight: 550;
+    font-size: 12px;
+}

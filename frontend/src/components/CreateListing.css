@@ -1,0 +1,52 @@
+.create-listing {
+    width: 100%;
+}
+.image {
+    width: 100%;
+    position: relative;
+}
+
+.image-content {
+    position: absolute;
+    top:0;
+    margin-left: 80px;
+    max-width: 50%;
+}
+
+.head {
+    margin-top: 150px;
+    font-family: Geomanist;
+    font-style: bolder;
+    color: #ffff;
+}
+.head p {
+width: 620px;
+max-width: fit-content;
+line-height: 25px ;
+}
+
+.head button {
+    width:255px;
+    height:56px;
+    border:solid 2px #CB3854;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #CB3854;
+    color: #ffff;
+    font-family: Geomanist;
+    font-weight: 550;
+    font-size: large;
+}
+.auth-buttons :hover {
+    cursor: pointer;
+}
+.auth-buttons {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.auth-buttons a{
+    margin: 30px;
+    text-decoration: underline;
+}
+

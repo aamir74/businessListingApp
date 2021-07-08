@@ -1,0 +1,70 @@
+.listing {
+    display:flex;
+    flex-direction: row;
+}
+.sidebar {
+    height:100vh;
+    width:35%;
+    background-color: #F9F9FE;
+    margin-top: 0;
+}
+
+.icon {
+    padding-top:10%;
+    padding-left: 10%;
+    color: black;
+}
+
+.content {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 5px;
+}
+
+.greeting {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.greeting p {
+    margin-top:7px;
+    color: #383E41;
+    font-family: Geomanist;
+    font-weight:770;
+    font-size:20px;
+    padding-right: 5px;
+}
+
+.about {
+    color: #383E41;
+    font-family: Geomanist;
+    font-weight:570;
+    font-size:15px;
+}
+
+.buttons-section{
+    margin-top: 30px;
+}
+.buttons {
+    margin-bottom:10px;
+    height:35px ;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #F9F9FE;
+    border: solid 1px #F9F9FE;
+    color:#383E41;
+}
+.tick {
+    padding-left: 7px;
+}
+.active {
+    margin-bottom:10px;
+    height:35px ;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #F9F9FE;
+    border: solid 1px #F9F9FE;
+    color:#ffff;
+    background-color: rebeccapurple;
+}
